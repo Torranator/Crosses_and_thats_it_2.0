@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
 
+
+
+
+@media (max-width: 768px) {
+    .main__container {
+        display: flex;
+        padding: 32px 0px;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        gap: 32px;
+        flex: 1 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+  .sneakers {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    }
+}
+  
+
+
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -158,16 +185,18 @@ hr{
         padding: 32px 0px;
         flex-direction: column;
         align-items: center;
+        align-content: center;
         flex-wrap: nowrap;
         gap: 32px;
         flex: 1 0 0;
     }
 }
-  
+
 @media (max-width: 768px) {
   .sneakers {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     }
 }
   
