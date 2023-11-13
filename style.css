@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Anonymous Pro', monospace;
     color: #121723;
 }
@@ -15,7 +15,7 @@ body{
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding-left:150px;
+    padding-left: 150px;
     padding-right: 150px;
 }
 
@@ -29,7 +29,7 @@ body{
     border-bottom: 1px solid #676B73;
 }
 
-.links{
+.links {
     font-family: 'Anonymous Pro', monospace;
     color: #121723;
     display: flex;
@@ -38,7 +38,7 @@ body{
 
 .links_ul {
     display: flex;
-    list-style-type:none;
+    list-style-type: none;
     gap: 24px;
 }
 
@@ -47,10 +47,10 @@ a {
 }
 
 main {
-    background-color:#E6E8EC66;
+    background-color: #E6E8EC66;
 }
 
-h1{
+h1 {
     font-size: 48px;
     font-weight: 700;
 }
@@ -64,23 +64,24 @@ h1{
 }
 
 
-.sneakers{
+.sneakers {
     display: flex;
     align-items: flex-start;
     align-content: flex-start;
     gap: 24px;
-    align-self: stretch;/*Зачем?*/
+    align-self: stretch;
+    /*Зачем?*/
     flex-wrap: wrap;
 }
 
-.sneaker{
+.sneaker {
     border-radius: 12px;
     width: 364px;
     overflow: hidden;
     background-color: white;
 }
 
-.sneaker__info{
+.sneaker__info {
     display: flex;
     padding: 32px 24px;
     flex-direction: column;
@@ -90,13 +91,13 @@ h1{
 }
 
 
-.sneaker__title{
+.sneaker__title {
     font-size: 26px;
     font-weight: 700;
 
 }
 
-.sneaker__description{
+.sneaker__description {
     font-size: 20px;
     font-weight: 400;
 }
@@ -110,7 +111,7 @@ h1{
     background-color: #121723;
 }
 
-.footer__top{
+.footer__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,14 +123,14 @@ h1{
     width: auto;
 }
 
-.links__footer{
+.links__footer {
     display: flex;
-    list-style-type:none;
+    list-style-type: none;
     gap: 10px;
     color: white;
 }
 
-.footer__bottom{
+.footer__bottom {
     background-color: #121723;
     display: flex;
     flex-direction: column;
@@ -138,7 +139,7 @@ h1{
     align-self: stretch;
 }
 
-hr{
+hr {
     display: flex;
     height: 1px;
     width: 1160px;
@@ -147,20 +148,21 @@ hr{
     align-self: stretch;
 }
 
-.bottom__text{
+.bottom__text {
     color: #A1A6B4;
     font-size: 16px;
     font-weight: 700;
 }
 
 @media (max-width: 768px) {
-  .sneakers {
+    .sneakers {
         flex-direction: column;
         align-items: center;
         align-content: center;
         padding-left: 16px;
         padding-right: 16px;
     }
+
     .main__container {
         display: flex;
         padding: 32px 0px;
@@ -172,4 +174,3 @@ hr{
         flex: 1 0 0;
     }
 }
-  
