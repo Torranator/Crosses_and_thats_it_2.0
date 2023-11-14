@@ -133,12 +133,66 @@ h1{
     width: 506px;
 }
 
+.sneaker__big-paramethers-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.sneaker-big__parameter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.sneaker-big__parameter-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.sneaker-big__parameter-title{
+    color: #121723;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sneaker-big__parameter-value{
+    color: #121723;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .sneaker-big__paramethers{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
     flex: 1 0 0;
+}
+
+.sneaker-big__paramethers-title{
+    color:  #121723;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sneaker-big__parameters-line{
+    height: 1px;
+    align-self: stretch;
+    background-color: #121723;
 }
 
 .sneaker{
