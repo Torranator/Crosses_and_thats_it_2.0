@@ -72,7 +72,7 @@ main {
     overflow: hidden;
     border-radius: 30px;
     background-color: white;
-    padding: 32px;
+    padding: 48px;
     gap: 24px;
 }
 
@@ -158,8 +158,6 @@ main {
     align-self: stretch;
 }
 
-
-
 .sneaker-big__parameter-value{
     color: #121723;
     text-align: right;
@@ -168,7 +166,6 @@ main {
     font-weight: 400;
     line-height: normal;
 }
-
 
 .sneaker-big__paramethers-title{
     color:  #121723;
@@ -190,7 +187,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 10px;
+    gap: 12px;
 }
 
 
@@ -252,7 +249,6 @@ main {
     background:  #676B73;
 }
 
-
 .bottom__text{
     color: #A1A6B4;
     font-size: 16px;
@@ -281,7 +277,7 @@ main {
         overflow: hidden;
         border-radius: 30px;
         background-color: white;
-        padding: 32px;
+        padding: 24px;
         gap: 24px;
     }
     
@@ -313,7 +309,6 @@ main {
         flex-direction: column;
         align-items: center;
         align-content: center;
-        margin-top: 24px;
     }
     
     .footer__top{
