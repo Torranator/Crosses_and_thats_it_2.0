@@ -120,8 +120,16 @@ main {
 }
 
 .return__button:hover{
+    transition: transform  200ms ease, box-shadow 200ms;
     transform: translateY(-10px);
-    box-shadow: 0px 5px 3px 0px #2e2e2e;
+    box-shadow: 0px 4px 4px 0px #00000040;
+  
+}
+  
+.return__button:active{
+    transition:  box-shadow 200ms ease, transform 200ms;
+    box-shadow: 0px 4px 4px 0px hsla(0, 0%, 0%, 0.5);
+    transform: translateY(2px);
 }
 
 .error__code{
