@@ -24,6 +24,29 @@ body{
     border-bottom: 1px solid #676B73;
 }
 
+.right__side__header{
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type:none ;
+    gap: 24px;
+}
+
+.language__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #121723;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
 .header__container {
     display: flex;
     padding-top: 24px;
@@ -67,7 +90,6 @@ main {
     padding-top: 32px;
     padding-bottom: 32px;
     text-align: center;
-    height: calc(100vh - 260px);/*Это что*/
 }
 
 .button__container{
@@ -198,6 +220,18 @@ hr{
         flex-wrap: nowrap;
         gap: 32px;
     }
+
+    .error__message {
+        display: flex;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        gap: 32px;
+    }
+
 
     .footer__container{
         flex-direction: column;
