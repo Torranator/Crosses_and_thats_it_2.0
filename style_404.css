@@ -67,7 +67,6 @@ main {
     padding-top: 32px;
     padding-bottom: 32px;
     text-align: center;
-    height: calc(100vh - 260px);/*Это что*/
 }
 
 .button__container{
@@ -198,6 +197,18 @@ hr{
         flex-wrap: nowrap;
         gap: 32px;
     }
+
+    .error__message {
+        display: flex;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        gap: 32px;
+    }
+
 
     .footer__container{
         flex-direction: column;
