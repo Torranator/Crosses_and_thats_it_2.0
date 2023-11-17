@@ -11,17 +11,17 @@ body{
     color: #121723;
 }
 
+.header{
+    background-color: white;
+    border-bottom: 1px solid #676B73;
+}
+
 .container {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-left:150px;
     padding-right: 150px;
-}
-
-.header{
-    background-color: white;
-    border-bottom: 1px solid #676B73;
 }
 
 .right__side__header{
