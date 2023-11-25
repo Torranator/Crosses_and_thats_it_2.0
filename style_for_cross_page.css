@@ -281,7 +281,7 @@ main {
     font-weight: 700;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1145px) {
 
     .container{
         max-width: 375px;

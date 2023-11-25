@@ -214,7 +214,7 @@ hr{
     font-weight: 700;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 900px) {
 
     .container{
         max-width: 375px;
